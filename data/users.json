@@ -1,11 +1,11 @@
 [
     {
-        "firstName": "Per Steen",
-        "lastName": "Olsen",
-        "username": "per",
-        "hash": "$2a$10$WzCGWRSVyh0KcYejyPsji.9BBwGJTnNKqBWRuayTpoAhOSoICMieW",
-        "id": 1,
-        "dateCreated": "2022-07-30T12:21:45.187Z",
-        "dateUpdated": "2022-07-30T12:21:45.187Z"
+        "firstName": "ole",
+        "lastName": "olsen",
+        "username": "user",
+        "hash": "$2a$10$CIXZpMDRindtRYean8G4TekOv1ORqrTGHEnhgWdvBImt22BCTveve",
+        "id": 2,
+        "dateCreated": "2022-07-31T11:30:30.950Z",
+        "dateUpdated": "2022-07-31T11:30:30.976Z"
     }
 ]
