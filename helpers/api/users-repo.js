@@ -2,6 +2,7 @@ const fs = require('fs');
 
 import path from 'path';
 const jsonDirectory = path.join(process.cwd(), 'data');
+alert( 'JSON Dir: ' + jsonDirectory );
 let users = require( jsonDirectory + '/users.json');
 
 // users in JSON file for simplicity, store in a db for production applications
