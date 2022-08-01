@@ -1,12 +1,14 @@
 const fs = require('fs');
 
-import path from 'path';
-const jsonDirectory = path.join(process.cwd(), 'data');
-alert( 'JSON Dir: ' + jsonDirectory );
-let users = require( jsonDirectory + '/users.json');
+// Note: Test for production at netlify / Vercel
+// Not working writing to json file at a production build - only read !!
+//import path from 'path';
+//const jsonDirectory = path.join(process.cwd(), 'data');
+//console.log( 'JSON Dir: ' + jsonDirectory );
+//let users = require( jsonDirectory + '\\users.json');
 
 // users in JSON file for simplicity, store in a db for production applications
-//let users = require('data/users.json');
+let users = require('data/users.json');
 
 export const usersRepo = {
     getAll: () => users,
