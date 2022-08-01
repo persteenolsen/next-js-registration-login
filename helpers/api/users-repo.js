@@ -1,7 +1,11 @@
 const fs = require('fs');
 
+import path from 'path';
+const jsonDirectory = path.join(process.cwd(), 'data');
+let users = require( jsonDirectory + '/users.json');
+
 // users in JSON file for simplicity, store in a db for production applications
-let users = require('data/users.json');
+//let users = require('data/users.json');
 
 export const usersRepo = {
     getAll: () => users,
