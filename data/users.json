@@ -1,11 +1,11 @@
 [
     {
-        "firstName": "ole",
-        "lastName": "olsen",
-        "username": "user",
-        "hash": "$2a$10$CIXZpMDRindtRYean8G4TekOv1ORqrTGHEnhgWdvBImt22BCTveve",
-        "id": 2,
-        "dateCreated": "2022-07-31T11:30:30.950Z",
-        "dateUpdated": "2022-07-31T11:30:30.976Z"
+        "firstName": "hans",
+        "lastName": "hansen",
+        "username": "hans",
+        "hash": "$2a$10$ntZHHOHc.jvgXqB5lxxCN.LVdzXZ7EArGzwokPywBxSl7jaVeZboa",
+        "id": 3,
+        "dateCreated": "2022-07-31T20:21:43.658Z",
+        "dateUpdated": "2022-07-31T20:21:43.658Z"
     }
 ]
